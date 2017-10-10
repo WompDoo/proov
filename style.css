@@ -27,14 +27,14 @@ body {
 }
 
 .first-row {
-    width: 55%;
-    min-width: 50%;
+    max-width: 1000px;
     height: 100%;
     margin-left: auto;
 }
 
 .second-row {
-    width: 30%;
+    max-width: 450px;
+    /*max-width: 30%;*/
     height: 100%;
     margin-left: 24px;
     margin-right: auto;
@@ -50,29 +50,26 @@ body {
 
 .main-heading {
     margin-top: 5px;
-    font-size: 2.6em;
+    font-size: 36px;
     margin-bottom: 0px;
-    text-align: justify;
 }
 
 .main-subtext {
-    font-size: 1.7em;
-    text-align: justify;
+    font-size: 22px;
     margin-top: 2px;
 }
 
 .sub-heading {
     font-weight: 300;
-    font-size: 2.7em;
+    font-size: 36px;
     color: #0054A6;
     text-transform: uppercase;
 }
 
 .main-subheading {
     margin-top: 5px;
-    font-size: 2em;
+    font-size: 26px;
     margin-bottom: 0px;
-    text-align: justify;
 }
 
 hr {
@@ -120,6 +117,35 @@ hr {
 .description h2 {
     margin-bottom: 0;
 }
+
+
+@media only screen and (max-width: 1507px) {
+    .first-row {
+        max-width: 67%;
+        height: 100%;
+        margin-left: 1px;
+    }
+
+    .second-row {
+
+        max-width: 31%;
+        height: 100%;
+        margin-left: 24px;
+        margin-right: 1px;
+    }
+}
+
+@media only screen and (max-width: 1332px) {
+
+    .second-row {
+
+        max-width: 30%;
+        height: 100%;
+        margin-left: 24px;
+        margin-right: 1px;
+    }
+}
+
 
 
 @media only screen and (max-width: 1024px) {
