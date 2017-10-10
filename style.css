@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.first-container1 {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.first-container2 {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.first-row {
+    width: 55%;
+    min-width: 50%;
+    height: 100%;
+    margin-left: auto;
+}
+
+.second-row {
+    width: 30%;
+    height: 100%;
+    margin-left: 24px;
+    margin-right: auto;
+}
+
+.hunt {
+    width: 100%;
+}
+
+.orav {
+    width: 100%;
+}
+
+.main-heading {
+    margin-top: 5px;
+    font-size: 2.6em;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.main-subtext {
+    font-size: 1.7em;
+    text-align: justify;
+    margin-top: 2px;
+}
+
+.sub-heading {
+    font-weight: 300;
+    font-size: 2.7em;
+    color: #0054A6;
+    text-transform: uppercase;
+}
+
+.main-subheading {
+    margin-top: 5px;
+    font-size: 2em;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+hr {
+    background-color: #0054A6;
+    height: 1px;
+    border: none;
+}
+
+.janes {
+    width: 100%;
+}
+
+.karu {
+    width: 100%;
+}
+
+.first-section {
+    width: 50%;
+    margin: 0px 12px 0px 0px;
+}
+
+.second-section {
+    width: 50%;
+    margin: 0px 0px 0px 12px;
+}
+
+.channel {
+    width: 13%;
+}
+
+.first-container2 h2 {
+    font-size: 1.2em;
+}
+
+.description {
+    width: 87%;
+}
+
+.description p {
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.description h2 {
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .first-row {
+        height: 50%;
+        width: 90%;
+        min-width: 90%;
+        margin: 10px auto;
+    }
+
+    .second-row {
+        height: 50%;
+        width: 90%;
+        min-width: 90%;
+        margin: 10px auto;
+    }
+}
